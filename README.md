@@ -82,7 +82,7 @@ A **fully automated, serverless data pipeline** that:
 
 🎥 **Streamlit Demo Video**
 
-[streamlit-app.mp4](streamlit-app.mp4)
+https://drive.google.com/file/d/1YxaFJJ9YYUaYyzFjWmYf01U-qC5KpXP9/view?usp=sharing
 
 ---
 
@@ -106,10 +106,10 @@ Amazon Athena
         ▼
 Streamlit Dashboard
 
-![Healthcare Architecture Diagram](healthcare_drawio_architecture.txt.jpg)
-
 ```
-
+---
+![Healthcare Architecture Diagram](healthcare_drawio_architecture.txt.jpg)
+---
 ---
 
 # 📁 **Repository Structure**
