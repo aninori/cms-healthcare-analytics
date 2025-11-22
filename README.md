@@ -30,6 +30,8 @@ A **fully automated, serverless data pipeline** that:
 5. **Queries** via serverless Amazon Athena SQL
 6. **Delivers** 6 business-critical metrics
 
+streamlit-app-2025-11-21-20-11-44.webm
+
 ### Key Results
 - ✅ Identified **54 high-risk facilities** requiring immediate intervention
 - ✅ Validated **-0.41 correlation** between staffing and readmissions
@@ -93,6 +95,9 @@ Amazon Athena
         │  boto3
         ▼
 Streamlit Dashboard
+
+healthcare_drawio_architecture.txt.jpg
+
 ```
 
 ---
