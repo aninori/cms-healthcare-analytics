@@ -1,0 +1,218 @@
+# ============================================================================
+# CMS Healthcare Analytics - .gitignore
+# ============================================================================
+
+# ============================================================================
+# AWS & Credentials
+# ============================================================================
+*.pem
+*.key
+service-account.json
+credentials.json
+*.env
+.env.local
+.env.*.local
+aws_credentials.txt
+
+# AWS SAM
+.aws-sam/
+
+# ============================================================================
+# Python
+# ============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# ============================================================================
+# Data Files (Keep sample data only)
+# ============================================================================
+data/*.csv
+data/*.parquet
+data/*.xlsx
+!data/sample_*.csv
+!data/README.md
+
+# Large files
+*.zip
+*.tar.gz
+*.gz
+
+# ============================================================================
+# AWS Glue Local Development
+# ============================================================================
+.glue/
+metastore_db/
+derby.log
+spark-warehouse/
+
+# ============================================================================
+# IDE & Editors
+# ============================================================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================================================
+# OS Files
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+
+# ============================================================================
+# Documentation
+# ============================================================================
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.bbl
+*.blg
+
+# MS Office temporary files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# ============================================================================
+# Logs & Temporary Files
+# ============================================================================
+logs/
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ============================================================================
+# Streamlit
+# ============================================================================
+.streamlit/secrets.toml
+
+# ============================================================================
+# Terraform (if using IaC)
+# ============================================================================
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# ============================================================================
+# Node.js (if using JavaScript tools)
+# ============================================================================
+node_modules/
+package-lock.json
+yarn.lock
+
+# ============================================================================
+# Project Specific
+# ============================================================================
+# Athena query results (local)
+athena_results/
+
+# S3 sync temporary files
+.s3sync/
+
+# Glue job artifacts
+glue_artifacts/
+
+# Test output
+test_output/
