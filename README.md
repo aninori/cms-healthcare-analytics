@@ -82,7 +82,7 @@ A **fully automated, serverless data pipeline** that:
 
 🎥 **Streamlit Demo Video**
 
-https://drive.google.com/file/d/1YxaFJJ9YYUaYyzFjWmYf01U-qC5KpXP9/view?usp=sharing
+[Watch Video](https://drive.google.com/file/d/1YxaFJJ9YYUaYyzFjWmYf01U-qC5KpXP9/view?usp=sharing)
 
 ---
 
