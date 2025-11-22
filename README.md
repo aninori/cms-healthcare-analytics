@@ -73,6 +73,15 @@ A **fully automated, serverless data pipeline** that:
 * Facility-level drill-downs
 * Risk scoring and heatmaps
 
+
+<!-- VIDEO: embedded demo -->
+<div align="center">
+<video controls width="720">
+        <source src="streamlit-app-2025-11-21-20-11-44.webm" type="video/webm">
+        Your browser does not support the video tag. <a href="streamlit-app-2025-11-21-20-11-44.webm">Watch video</a>
+</video>
+</div>
+
 ---
 
 ## 🏗 **Architecture**
@@ -95,9 +104,15 @@ Amazon Athena
         ▼
 Streamlit Dashboard
 
+
 ```
 
 ---
+
+<!-- IMAGE: architecture diagram -->
+<p align="center">
+        <img src="healthcare_drawio_architecture.txt.jpg" alt="Architecture diagram" width="900"/>
+</p>
 
 # 📁 **Repository Structure**
 
@@ -123,7 +138,7 @@ cms-healthcare-analytics/
 
 ---
 
-# 🛠 **Technology Stack (Explained Like a Senior Engineer)**
+# 🛠 **Technology Stack**
 
 ### **AWS Glue**
 
