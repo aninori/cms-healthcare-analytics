@@ -77,8 +77,8 @@ A **fully automated, serverless data pipeline** that:
 <!-- VIDEO: embedded demo -->
 <div align="center">
 <video controls width="720">
-        <source src="streamlit-app-2025-11-21-20-11-44.webm" type="video/webm">
-        Your browser does not support the video tag. <a href="streamlit-app-2025-11-21-20-11-44.webm">Watch video</a>
+        <source src="streamlit-app.webm" type="video/webm">
+        Your browser does not support the video tag. <a href="streamlit-app.webm">Watch video</a>
 </video>
 </div>
 
