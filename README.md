@@ -30,6 +30,13 @@ A **fully automated, serverless data pipeline** that:
 5. **Queries** via serverless Amazon Athena SQL
 6. **Delivers** 6 business-critical metrics
 
+<!-- VIDEO: embedded demo -->
+<div align="center">
+<video controls width="720">
+        <source src="streamlit-app" type="video/webm">
+        Your browser does not support the video tag. <a href="streamlit-app.webm">Watch video</a>
+</video>
+</div>
 
 ### Key Results
 - ✅ Identified **54 high-risk facilities** requiring immediate intervention
@@ -73,15 +80,6 @@ A **fully automated, serverless data pipeline** that:
 * Facility-level drill-downs
 * Risk scoring and heatmaps
 
-
-<!-- VIDEO: embedded demo -->
-<div align="center">
-<video controls width="720">
-        <source src="streamlit-app.webm" type="video/webm">
-        Your browser does not support the video tag. <a href="streamlit-app.webm">Watch video</a>
-</video>
-</div>
-
 ---
 
 ## 🏗 **Architecture**
@@ -108,11 +106,6 @@ Streamlit Dashboard
 ```
 
 ---
-
-<!-- IMAGE: architecture diagram -->
-<p align="center">
-        <img src="healthcare_drawio_architecture.txt.jpg" alt="Architecture diagram" width="900"/>
-</p>
 
 # 📁 **Repository Structure**
 
@@ -343,9 +336,9 @@ Based on analysis of 15,000+ nursing homes:
 - [x] Athena SQL metrics
 
 ### Phase 2: Analytics Enhancement ✅ (Completed)
-- [ ] Streamlit dashboard completion
-- [ ] Interactive visualizations (Plotly)
-- [ ] Real-time monitoring alerts
+- [x] Streamlit dashboard completion
+- [x] Interactive visualizations (Plotly)
+- [x] Real-time monitoring alerts
 
 ### Phase 3: Advanced Features 📋 (Planned)
 - [ ] Machine learning readmission prediction
