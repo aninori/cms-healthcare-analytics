@@ -126,8 +126,8 @@ cms-healthcare-analytics/
 ├── sql/
 │   └── metrics_queries.sql                  # Bed Utilization, Staffing, Turnover, Correlation
 │
-├── docs/
-│   └── README_project_overview.md           # High-level project documentation
+├── license/
+│   └── MIT License.md
 │
 ├── .gitignore
 ├── README.md                                # <-- YOU ARE HERE
