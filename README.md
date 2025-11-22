@@ -80,6 +80,10 @@ A **fully automated, serverless data pipeline** that:
 * Facility-level drill-downs
 * Risk scoring and heatmaps
 
+🎥 **Streamlit Demo Video**
+
+[streamlit-app.mp4](streamlit-app.mp4)
+
 ---
 
 ## 🏗 **Architecture**
@@ -102,6 +106,7 @@ Amazon Athena
         ▼
 Streamlit Dashboard
 
+![Healthcare Architecture Diagram](healthcare_drawio_architecture.txt.jpg)
 
 ```
 
